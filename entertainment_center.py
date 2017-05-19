@@ -39,7 +39,7 @@ def get_movie_list(favorite_movies):
 
 if __name__ == '__main__':
     # make movie list
-    movies = get_movie_list(pixar_movies)
+    movies = get_movie_list(cool_movies)
 
     # creates webpage with movies and trailers
     fresh_tomatoes.open_movies_page(movies)
